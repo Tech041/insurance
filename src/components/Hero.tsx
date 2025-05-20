@@ -13,7 +13,7 @@ const Hero = () => {
       id="home"
     >
       <Container>
-        <div className="flex flex-col md:flex-row items-center h-full w-full ">
+        <div className="flex flex-col md:flex-row  gap-4 items-center h-full w-full ">
           {/* left */}
           <div className="flex-1 ">
             <div className="w-full h-full">

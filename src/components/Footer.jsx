@@ -6,17 +6,11 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer
-      className="bg-black text-white h-full"
-      id="footer"
-    >
+    <footer className="bg-black text-white h-full" id="footer">
       <Container>
         <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-14 my-10 mt-40 text-sm">
-          <div className="">
+          <div className="pt-4 md:pt-0">
             <div className="">
-              <p className="text-xl font-medium mb-5 pt-5 text-white ">
-                Kedi Pharma
-              </p>
               <div className="">
                 <a href="#home" className="">
                   <img
@@ -28,11 +22,14 @@ const Footer = () => {
                   />
                 </a>
               </div>
+              <p className="font-medium mb-5 pt-5 text-white text-sm ">
+                M'Whales Enterprise Resources
+              </p>
             </div>
           </div>
           <div className="">
             <p className="text-xl font-medium mb-5 pt-5 text-orange-600 ">
-              Quick Link
+              Quick Links
             </p>
             <ul className="flex flex-col gap-1">
               <li className="cursor-pointer py-1">
@@ -119,7 +116,7 @@ const Footer = () => {
         <div className="">
           <hr className="" />
           <p className="py-5 text-xs text-center  ">
-            Copyright &copy;Kedi Pharma {new Date().getFullYear()} <br />
+            Copyright &copy;M'Whales Enterprise Resources {new Date().getFullYear()} <br />
             <span className="">All rights reserved.</span>
           </p>
         </div>

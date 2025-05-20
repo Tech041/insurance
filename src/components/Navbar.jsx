@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import Container from "./Container";
 import { GiHamburgerMenu } from "react-icons/gi";
-const liStyles = "hover:cursor-pointer hover:text-orange-500";
 import { MdClose } from "react-icons/md";
 import Button from "./Button";
 import { AppContext } from "../context/AppContext";
@@ -9,7 +8,9 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 
-const mobileStyle = "cursor-pointer hover:text-green-600 w-[100px]";
+const mobileStyle = "cursor-pointer hover:text-black/60 w-[100px]";
+const liStyles = "hover:cursor-pointer hover:text-black/60 ";
+
 const Navbar = () => {
   const { isOpen, setIsOpen } = useContext(AppContext);
   return (
@@ -27,13 +28,13 @@ const Navbar = () => {
                 className="w-[30px] h-[30px] rounded-full"
               />
 
-              <span className="text-xs text-black font-bold hidden sm:block ">M'Whales Enterprices Resources</span>
+              <span className="text-xs text-black font-bold hidden sm:block ">M'Whales Enterprise Resources</span>
             </a>
           </div>
           {/* nav links */}
           <nav className=" flex justify-between items-center gap-3 flex-[2] relative">
             <div className="flex-[3] hidden md:block ">
-              <ul className="flex justify-center items-center gap-5 text-gray-200">
+              <ul className="flex justify-center items-center gap-5 text-black font-bold">
                 <li className={liStyles}>
                   <a href="#home" className="">
                     Home
@@ -86,7 +87,7 @@ const Navbar = () => {
               isOpen ? "right-0" : "right-[-100%]"
             } md:hidden absolute  top-0 h-screen  w-[70%] bg-white transition-all duration-700 ease-out z-30`}
           >
-            <ul className="text-black mt-20 pt-10 flex flex-col gap-6 items-center font-semibold  ">
+            <ul className="text-black mt-20 pt-10 flex flex-col gap-6 items-center font-bold  ">
               <li
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
