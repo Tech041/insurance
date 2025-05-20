@@ -30,7 +30,7 @@ const About = () => {
             </div>
             {/* right */}
             <div className=" flex-[2]">
-              <h1 className="pb-6  text-lg md:text-xl font-bold text-center pt-4 hidden md:block">
+              <h1 className="pb-6  text-lg md:text-xl font-bold text-center pt-4 hidden md:block text-blue-800">
                 About Us
               </h1>
 

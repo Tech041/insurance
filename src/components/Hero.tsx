@@ -17,12 +17,12 @@ const Hero = () => {
           {/* left */}
           <div className="flex-1 ">
             <div className="w-full h-full">
-              <h1 className="text-2xl md:text-3xl lg:text-6xl font-extrabold text-center md:text-start">
+              <h1 className="text-2xl md:text-3xl lg:text-6xl font-extrabold text-center md:text-start text-black">
                 M'Whales Enterprise Resources
               </h1>
             </div>
             <div className="pt-4  ">
-              <h1 className="text-center md:text-start text-gray-500 text-lg">
+              <h1 className="text-center md:text-start text-blue-800 text-lg">
                 Your Trusted Insurance Partner
               </h1>
               <div className="py-4  flex justify-center items-center md:justify-start">

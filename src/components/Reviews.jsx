@@ -7,7 +7,7 @@ const Reviews = () => {
     <section className=" mt-10 flex justify-center items-center">
       <Container>
         <div className="">
-          <h1 className="text-center text-xl font-semibold py-4">
+          <h1 className="text-center text-xl font-semibold py-4 text-blue-800">
           Our Clients Reviews
           </h1>
           <CustomerReviews />
