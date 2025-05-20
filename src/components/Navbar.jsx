@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center hover:cursor-pointer">
           {/* logo */}
           <div className="flex-1 flex items-center gap-2 ">
-            <a href="#home" className="">
+            <a href="#home" className="flex  items-center justify-center gap-2">
               <img
                 src="/insurance_logo.png"
                 alt=""
