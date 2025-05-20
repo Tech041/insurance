@@ -102,12 +102,9 @@ const Footer = () => {
                 </div>
               </div>
               <div className="pt-3">
-                <a
-                  href="tel:+2347055577074"
-                  className="flex items-center gap-3"
-                >
+                <a href="tel:+23437412024" className="flex items-center gap-3">
                   <FaPhone size={15} />
-                  <span className="">+2347055577074</span>
+                  <span className="">+23437412024</span>
                 </a>
               </div>
             </div>
