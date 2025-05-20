@@ -28,7 +28,9 @@ const Navbar = () => {
                 className="w-[30px] h-[30px] rounded-full"
               />
 
-              <span className="text-xs text-black font-bold hidden sm:block ">M'Whales Enterprise Resources</span>
+              <span className="text-xs text-black font-bold hidden sm:block ">
+                M'Whales Enterprise Resources
+              </span>
             </a>
           </div>
           {/* nav links */}
@@ -42,17 +44,13 @@ const Navbar = () => {
                 </li>
                 <li className={liStyles}>
                   <a href="#about" className="">
-                    About 
+                    About
                   </a>
                 </li>
+
                 <li className={liStyles}>
-                  <a href="#benefits" className="">
-                    Benefits
-                  </a>
-                </li>
-                <li className={liStyles}>
-                  <a href="#products" className="">
-                    Products
+                  <a href="#coverage" className="">
+                    Coverage
                   </a>
                 </li>
                 <li className={liStyles}>
@@ -64,7 +62,7 @@ const Navbar = () => {
             </div>
             <div className="flex-1 flex  items-center gap-4 justify-end ">
               <Button>
-                <a href="https://wa.link/k5g70d" className="">
+                <a href="https://wa.link/n8bjn5" className="">
                   Contact Us
                 </a>
               </Button>
@@ -101,15 +99,7 @@ const Navbar = () => {
                 className={mobileStyle}
               >
                 <a href="#about" className="">
-                  About 
-                </a>
-              </li>
-              <li
-                onClick={() => setIsOpen((prev) => !prev)}
-                className={mobileStyle}
-              >
-                <a href="#benefits" className="">
-                  Benefits
+                  About
                 </a>
               </li>
 
@@ -117,8 +107,8 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <a href="#products" className="">
-                  Products
+                <a href="#coverage" className="">
+                  Coverage
                 </a>
               </li>
 
@@ -135,7 +125,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center gap-5 pt-10 ">
               <div className="">
                 <a
-                  href="https://www.facebook.com/share/1A8YHCQtsR/"
+                  href="https://www.facebook.com/share/15qKR7eWkw/?mibextid=wwXIfr"
                   target="_blank"
                   className=""
                 >
@@ -146,7 +136,7 @@ const Navbar = () => {
               </div>
               <div className="">
                 <a
-                  href="https://www.instagram.com/kitaajanwachuku?igsh=MWJ6bGlxMW45OHFrNQ=="
+                  href="https://www.instagram.com/official_babawaleayodele?igsh=dnJudW1nejd2OTQ0&utm_source=qr"
                   target="_blank"
                   className=""
                 >
@@ -156,7 +146,7 @@ const Navbar = () => {
                 </a>
               </div>
               <div className="">
-                <a href="https://wa.link/nylble" target="_blank" className="">
+                <a href="https://wa.link/n8bjn5" target="_blank" className="">
                   <span className="">
                     <FaWhatsapp size={20} color="green" />
                   </span>

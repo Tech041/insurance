@@ -68,7 +68,7 @@ const Footer = () => {
                 <div className="flex items-center justify-center gap-3 ">
                   <div className="">
                     <a
-                      href="https://www.facebook.com/share/1A8YHCQtsR/"
+                      href="https://www.facebook.com/share/15qKR7eWkw/?mibextid=wwXIfr"
                       target="_blank"
                       className=""
                     >
@@ -79,7 +79,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <a
-                      href="https://www.instagram.com/kitaajanwachuku?igsh=MWJ6bGlxMW45OHFrNQ=="
+                      href="https://www.instagram.com/official_babawaleayodele?igsh=dnJudW1nejd2OTQ0&utm_source=qr"
                       target="_blank"
                       className=""
                     >
@@ -90,7 +90,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <a
-                      href="https://wa.link/k5g70d"
+                      href="https://wa.link/n8bjn5"
                       target="_blank"
                       className=""
                     >
@@ -116,7 +116,8 @@ const Footer = () => {
         <div className="">
           <hr className="" />
           <p className="py-5 text-xs text-center  ">
-            Copyright &copy;M'Whales Enterprise Resources {new Date().getFullYear()} <br />
+            Copyright &copy;M'Whales Enterprise Resources{" "}
+            {new Date().getFullYear()} <br />
             <span className="">All rights reserved.</span>
           </p>
         </div>

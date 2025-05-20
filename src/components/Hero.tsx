@@ -27,7 +27,7 @@ const Hero = () => {
               </h1>
               <div className="py-4  flex justify-center items-center md:justify-start">
                 <Button>
-                  <a href="#products" className="">
+                  <a href="https://wa.link/n8bjn5" className="">
                     Contact Us
                   </a>
                 </Button>

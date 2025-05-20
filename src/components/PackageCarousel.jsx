@@ -57,7 +57,7 @@ const PackageCarousel = () => {
   }, [index]);
 
   return (
-    <section className="bg-gray-100 py-4">
+    <section className="bg-gray-100 py-4" id="coverage">
       <div className="relative w-full max-w-screen-lg mx-auto overflow-hidden ">
         <h1 className="text-center text-xl md:text-2xl font-bold text-blue-800">
           Our Insurance Coverage
