@@ -51,7 +51,7 @@ const PackageCarousel = () => {
       } else {
         setIndex((prevIndex) => prevIndex + 1);
       }
-    }, 3000);
+    }, 60000);
 
     return () => clearInterval(interval);
   }, [index]);
