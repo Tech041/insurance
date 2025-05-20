@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="">
                 <a href="#home" className="">
                   <img
-                    src="/insurance_logo.png"
+                    src="/ilogo.jpg"
                     alt=""
                     width={50}
                     height={50}

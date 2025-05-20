@@ -5,32 +5,38 @@ const images = [
   {
     name: "Agriculture Insurance",
     src: "/agric_insurance.jpg",
-    desc: "Agricultural insurance helps farmers protect their crops, livestock, and equipment from risks like natural disasters, pests, and market fluctuations. It provides financial security by covering losses due to unpredictable events, ensuring farmers can continue their operations without major setbacks",
   },
   {
     name: "Professional Indemnity Insurance",
     src: "/indemnity_insurance.jpg",
-    desc: "Professional indemnity insurance protects businesses and professionals from financial losses due to claims of negligence, errors, or omissions in their services. It covers legal costs and compensation if a client suffers harm due to professional advice or actions. This type of insurance is essential for consultants, lawyers, architects, and other service providers who offer expert guidance",
   },
   {
     name: "Life Insurance",
     src: "/life_insurance.jpg",
-    desc: "Life insurance provides financial protection to beneficiaries in case of the insured person's death. It helps cover funeral expenses, outstanding debts, and lost income, ensuring financial security for loved ones. There are different types, including term life insurance, which offers coverage for a specific period, and permanent life insurance, which provides lifelong protection.",
   },
   {
-    name: "Vehicle Insurance",
+    name: "Motor Insurance",
     src: "/vehicle_insurance.jpg",
-    desc: "Vehicle insurance provides financial protection against losses due to accidents, theft, or damage to a vehicle. It covers repair costs, medical expenses, and liability for damages caused to others. Policies vary, including third-party liability, comprehensive coverage, and collision insurance, ensuring drivers are safeguarded from unexpected expenses.",
   },
   {
     name: "Burglary Insurance",
     src: "/burglary_insurance.jpg",
-    desc: "Burglary insurance provides financial protection against losses or damages caused by forced entry into a property. It covers stolen valuables, property damage from break-ins, and sometimes attempted burglary. This type of insurance is essential for businesses and homeowners looking to safeguard their assets against theft",
   },
   {
     name: "Fire Insurance",
     src: "/fire_insurance.jpg",
-    desc: "Fire insurance provides financial protection against losses or damages caused by fire. It covers the cost of repairing, rebuilding, or replacing property affected by fire-related incidents, including electrical faults, gas explosions, and natural disasters. Homeowners and businesses often use fire insurance to safeguard their assets and minimize financial risks",
+  },
+  {
+    name: "Marine Insurance",
+    src: "/marine.jpg",
+  },
+  {
+    name: "Public Liability Insurance",
+    src: "/public_liability.jpg",
+  },
+  {
+    name: "House Owner Insurance",
+    src: "/houseowner.jpg",
   },
 ];
 
@@ -51,7 +57,7 @@ const PackageCarousel = () => {
       } else {
         setIndex((prevIndex) => prevIndex + 1);
       }
-    }, 60000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [index]);

@@ -21,14 +21,14 @@ const Navbar = () => {
           <div className="flex-1 flex items-center gap-2 ">
             <a href="#home" className="flex  items-center justify-center gap-2">
               <img
-                src="/insurance_logo.png"
+                src="/ilogo.jpg"
                 alt=""
                 width={30}
                 height={30}
                 className="w-[30px] h-[30px] rounded-full"
               />
 
-              <span className="text-xs text-black font-bold hidden sm:block ">
+              <span className="text-xs text-blue-800 font-bold hidden sm:block ">
                 M'Whales Enterprise Resources
               </span>
             </a>

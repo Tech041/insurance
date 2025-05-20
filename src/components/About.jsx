@@ -4,7 +4,7 @@ const spanStyle = "font-semibold";
 const About = () => {
   return (
     <section
-      className=" h-[600px]  mt-32 md:mt-0 md:h-[400px] w-full bg-white pt-10 "
+      className=" h-[600px]  mt-32 md:mt-0 md:h-[500px] w-full bg-white pt-10 "
       id="about"
     >
       <Container>
@@ -40,14 +40,17 @@ const About = () => {
                 partner with them on general products which include:
               </p>
               <p className="flex flex-col justify-center gap-1">
-                <span className={spanStyle}>Vehicle insurance</span>
-                <span className={spanStyle}>Life insurance</span>
+                <span className={spanStyle}>Motor insurance</span>
+                <span className={spanStyle}>Life and pension scheme</span>
                 <span className={spanStyle}>Fire insurance</span>
-                <span className={spanStyle}>Burglary insurance</span>
-                <span className={spanStyle}>Agriculture insurance</span>
                 <span className={spanStyle}>
-                  Professional indemnity insurance
+                  Marine(Hull & cargo) insurance
                 </span>
+                <span className={spanStyle}>Public liability insurance</span>
+                <span className={spanStyle}>Burglary insurance</span>
+                <span className={spanStyle}>House Owner insurance</span>
+                <span className={spanStyle}>Agriculture insurance</span>
+                <span className={spanStyle}>Professional indemnity insurance etc.</span>
               </p>
             </div>
           </div>
