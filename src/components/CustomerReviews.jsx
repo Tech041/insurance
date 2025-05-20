@@ -7,22 +7,22 @@ const CustomerReviews = () => {
       <ReviewCard
         name="Mrs Ogwaraonye"
         rating={4}
-        review="Breast cancer healed with Kedi products.In 2008, I had a lump-like mass under my breast. In 2010, it regenereated  into tumor. In 2012, I used REISHI and Golden Hypha; and in few months, I was healed. Am still on those drugs to ensure the cancer cells are controlled permanently"
+        review="Exceptional service and professionalism. The team was responsive, knowledgeable, and made the entire process seamless. Highly recommended!"
       />
       <ReviewCard
-        name="Dr Paul"
+        name="Engr Paul"
         rating={4}
-        review="As a physician , I recommed Kedi products for my patients because it has proven medically, to be safe and efficacious."
+        review="Highly impressed with the quality and efficiency. Fantastic experience!"
       />
       <ReviewCard
         name="Mr Godffery"
         rating={4}
-        review="Kedi Refresh tea did wonders to my sight. I can now see both far and near ever since I started using the Refresh tea.It is so amazing."
+        review="Trustworthy and hassle-free service. I highly recommend them!."
       />{" "}
       <ReviewCard
-        name="Mrs Adeboye"
+        name="Hon Adeboye"
         rating={4}
-        review="My knee joint was restored to normal with Jointeez. After years of stroke ,I could not move nor speak. I used Jointeez and everything is now past tense."
+        review="Reliable, professional, and exceeded my expectations."
       />
     </div>
   );

@@ -1,10 +1,10 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
-import Benefits from "../components/Benefits";
 import OurProducts from "../components/OurProducts";
 import Footer from "../components/Footer";
 import Reviews from "../components/Reviews";
+import PackageCarousel from "../components/PackageCarousel";
 
 const Home = () => {
   return (
@@ -12,8 +12,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
-      <Benefits />
-      <OurProducts />
+      <PackageCarousel />
       <Reviews />
       <Footer />
     </div>

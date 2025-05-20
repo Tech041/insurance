@@ -8,7 +8,7 @@ const Reviews = () => {
       <Container>
         <div className="">
           <h1 className="text-center text-xl font-semibold py-4">
-            Customers Reviews
+          Our Clients Reviews
           </h1>
           <CustomerReviews />
         </div>

@@ -23,7 +23,9 @@ const About = () => {
                   alt="ceo_image"
                   className="w-[70%]  h-[70%]  object-cover rounded-full "
                 />
-                <span className="text-lg font-semibold pb-3">Engr. B.A Ayodele</span>
+                <span className="text-lg font-semibold pb-3">
+                  Engr. B.A Ayodele
+                </span>
               </div>{" "}
             </div>
             {/* right */}
@@ -38,12 +40,13 @@ const About = () => {
                 partner with them on general products which include:
               </p>
               <p className="flex flex-col justify-center gap-1">
-                <span className={spanStyle}>Motor insurance</span>
+                <span className={spanStyle}>Vehicle insurance</span>
                 <span className={spanStyle}>Life insurance</span>
-                <span className={spanStyle}>Fire and Burglary insurance</span>
-                <span className={spanStyle}>Agricultural insurance</span>
+                <span className={spanStyle}>Fire insurance</span>
+                <span className={spanStyle}>Burglary insurance</span>
+                <span className={spanStyle}>Agriculture insurance</span>
                 <span className={spanStyle}>
-                  Professional integrity insurance
+                  Professional indemnity insurance
                 </span>
               </p>
             </div>
