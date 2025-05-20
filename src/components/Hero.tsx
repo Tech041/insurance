@@ -18,21 +18,14 @@ const Hero = () => {
           <div className="flex-1 ">
             <div className="w-full h-full">
               <h1 className="text-2xl md:text-3xl lg:text-6xl font-extrabold text-center md:text-start">
-                Your Trusted
+                M'Whales Enterprise Resources
               </h1>
-              <h2 className="text-2xl md:text-3xl lg:text-6xl font-extrabold text-center md:text-start">
-                Insurance
-              </h2>
-              <h3 className="text-2xl md:text-3xl lg:text-6xl font-extrabold text-center md:text-start">
-                Partner
-              </h3>
             </div>
-            <div className="pt-4">
+            <div className="pt-4  ">
               <h1 className="text-center md:text-start text-gray-500 text-lg">
-                Reliable coverage tailored to your needs because your peace of
-                mind matters.
+                Your Trusted Insurance Partner
               </h1>
-              <div className="py-4 flex justify-center items-center md:justify-start">
+              <div className="py-4  flex justify-center items-center md:justify-start">
                 <Button>
                   <a href="#products" className="">
                     Contact Us
@@ -46,11 +39,13 @@ const Hero = () => {
             {/* images */}
             {/* slide */}
 
-            
-              <div className="w-full h-full flex justify-center items-center rounded-xl overflow-hidden ">
-                <img src="/ihero_image.jpg" alt="" className="w-full h-full object-cover" />
-              </div>
-            
+            <div className="w-full h-full flex justify-center items-center rounded-xl overflow-hidden ">
+              <img
+                src="/ihero_image.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </Container>
