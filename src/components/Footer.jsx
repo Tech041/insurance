@@ -104,7 +104,7 @@ const Footer = () => {
               <div className="pt-3">
                 <a href="tel:+23437412024" className="flex items-center gap-3">
                   <FaPhone size={15} />
-                  <span className="">+23437412024</span>
+                  <span className="">+2347037412024</span>
                 </a>
               </div>
             </div>
