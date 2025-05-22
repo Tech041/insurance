@@ -37,19 +37,15 @@ const Footer = () => {
                   Home
                 </a>
               </li>
-              <li className="cursor-pointer">
-                <a href="#benefits" className="">
-                  Benefits
-                </a>
-              </li>
+             
               <li className="cursor-pointer py-1">
                 <a href="#about" className="">
                   About Us
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="#products" className="">
-                  Products
+                <a href="#coverage" className="">
+                  Coverage
                 </a>
               </li>
               <li className="cursor-pointer py-1">
